@@ -10,7 +10,7 @@ def main():
             print('Число меньше')
         elif userNumber > number:
             print('Число больше')
-        else:
+        elif userNumber == userNumber:
             break
 
     print('Отличная интуиция!')
